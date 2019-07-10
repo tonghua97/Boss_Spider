@@ -35,17 +35,7 @@ class Simple_structure(object):
         return random.choice(list(proxy))
 
 
-headers = ''':authority:www.zhipin.com
-:method:GET
-:path:/c101280600/?period=1&page=10
-:scheme:https
-accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
-accept-encoding:gzip,deflate,br
-accept-language:zh-CN,zh;q=0.9
-cache-control:max-age=0
-cookie:lastCity=101280600;__c=1562721489;__g=-;__l=l=%2Fwww.zhipin.com%2Fjob_detail%2F18fc391f5673fb921X1-09u7FFU~.html%3Fka%3Dsearch_list_1&r=;Hm_lvt_194df3105ad7148dcf2b98a91b5e727a=1562549969,1562633593,1562670593,1562721489;t=UP0bCWEkgh4zF13h;wt=UP0bCWEkgh4zF13h;JSESSIONID="";__a=89045758.1558864236.1562670593.1562721489.1653.35.22.1653;Hm_lpvt_194df3105ad7148dcf2b98a91b5e727a=1562721762
-upgrade-insecure-requests:1
-user-agent:Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/73.0.3683.103Safari/537.36'''
+headers = ''''''
 
 Headers = Simple_structure(headers)
 result = Headers.Structural_data
